@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+
+jsp,body{
+background-image: url(Assets/fly.jpg);
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size: cover;
+background-position:center;
+height: 100%;
+min-height:100%;
+margin: 0;
+padding: 0;
+font-family: 'Numans', sans-serif;
+}
+
+.container{
+margin-left: 50px;
+padding-top: 100px;
+height: 100%;
+align-content: center;
+}
+
+.Register-container{
+padding-left: 50px;
+height: 100%;
+align-content: center;
+}
+
+.Reset-container{
+padding-left: 50px;
+height: 100%;
+align-content: center;
+}
+
+.search-flight-container{
+padding-left: 340px;
+padding-top: 200px;
+padding: center;
+height: 100%;
+align-content: center;
+}
+
+.navbar{
+    background-color: rgba(0,0,0,0.75) !important;
+}
+.card{
+height: 460px;
+margin-top: auto;
+margin-bottom: auto;
+width: 450px;
+background-color: rgba(0,0,0,0.6) !important;
+}
+.signin{    
+    background-color: rgba(0,0,0,0.75) !important;
+    margin-top: 9px;
+    margin-right: -15px; 
+}
+.dropdown-item:hover{
+    background-color: rgba(0,0,0,0.75) !important;
+}
+
+.Register-card{
+height: 430px;
+margin-top: auto;
+margin-bottom: auto;
+width: 560px;
+background-color: rgba(0,0,0,0.6) !important;
+}
+
+.Reset-card{
+height: 350px;
+margin-top: auto;
+margin-bottom: auto;
+width: 600px;
+background-color: rgba(0,0,0,0.6) !important;
+}
+
+.search-flight-card{
+height: 360px;
+margin-top: auto;
+margin-bottom: auto;
+width: 830px;
+background-color: rgba(0,0,0,0.6) !important;
+}
+
+.card-header h3{
+color: white;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+.register-btn{
+color: black;
+background-color: #FFC312;
+}
+.register-btn:hover{
+color: black;
+background-color: white;
+width: 100px;
+}
+
+.login_btn{
+color: #fff;
+background-color: #c82333;
+border-color: #bd2130;
+width: 100px;
+}
+.input-group-prepend span {
+    background-color: #c82333;
+    color: white;
+    border: 0 !important;
+}
+.reset_btn{
+color: black;
+background-color: #FFC312;
+width: 130px;
+}
+
+.login_btn:hover{
+color: #212529;
+}
+
+
+.links{
+color: white;
+}
+
+.links:hover{
+color: white;
+}
+
+.links a{
+color:grey;   
+margin-left: 10px;
+}
+
+.login-card-purple {
+    background: linear-gradient(145deg, #673AB7, #9C27B0);
+}
+
+.login-card-yellow {
+    background: linear-gradient(145deg, #FFC107, #FFEB3B);
+}
+
+.login-card-light {
+    background: linear-gradient(145deg, #eee, #fff);
+}
+
+.login-dark {
+    background: linear-gradient(145deg, #575b5d, #252b2d);
+}
+
+.login-blue {
+    background: linear-gradient(145deg, #2196F3, #3F51B5);
+}
+
+.login-purple-pink {
+    background: linear-gradient(145deg, #3F51B5, #E91E63);
+}
+
+.field {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.field label::before {
+    content: attr(title);
+    position: absolute;
+    top: 0;
+    left: 15px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #777;
+    transition: 300ms all;
+}
+
+.field input {
+    width: 100%;
+    line-height: 40px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #222;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.field input:focus {
+    outline: 0;
+    border-color: blue;
+}
+
+.field input:valid + label::before {
+    line-height: 20px;
+    font-size: 12px;
+    top: -10px;
+    background: #fff;
+    padding: 0 6px;
+    left: 9px;
+    content: attr(data-title);
+}
+
+.field input:focus + label::before {
+    line-height: 20px;
+    font-size: 12px;
+    top: -10px;
+    background: #fff;
+    color: gray;
+    padding: 0 6px;
+    left: 9px;
+}
